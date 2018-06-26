@@ -16,7 +16,7 @@ namespace Localization_and_internalization_C_sharp
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Locale", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
