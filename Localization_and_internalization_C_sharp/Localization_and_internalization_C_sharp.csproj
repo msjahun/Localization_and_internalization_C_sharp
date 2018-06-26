@@ -145,6 +145,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\Content.kr.designer.cs">
+      <DependentUpon>Content.kr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Content.tr.designer.cs">
+      <DependentUpon>Content.tr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="App_GlobalResources\Content.fr.designer.cs">
       <DependentUpon>Content.fr.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -160,8 +170,8 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="App_GlobalResources\Content.kr.designer.cs">
-      <DependentUpon>Content.kr.resx</DependentUpon>
+    <Compile Include="App_GlobalResources\Content.ko.designer.cs">
+      <DependentUpon>Content.ko.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -256,9 +266,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\Content.kr.resx">
+    <Content Include="App_GlobalResources\Content.ko.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Content.kr.designer.cs</LastGenOutput>
+      <LastGenOutput>Content.ko.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -277,6 +287,18 @@
     <Content Include="App_GlobalResources\Content.ja.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Content.ja.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Content.tr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Content.tr.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Content.kr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Content.kr.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>
