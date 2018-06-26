@@ -11,7 +11,38 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
-    </div>
+    
+        @Html.ActionLink("English", "Change", "Locale", new  { id = "en"}, null)|
+        @Html.ActionLink("Korean", "Change", "Locale", new  { id = "kr"}, null)|
+        @Html.ActionLink("Germany", "Change", "Locale", new  { id = "de"}, null)|
+        @Html.ActionLink("France", "Change", "Locale", new  { id = "fr"}, null)|
+        @Html.ActionLink("Japan", "Change", "Locale", new  { id = "ja"}, null)
+
+    <br /><br />
+
+    <table cellpadding="2" cellspacing="2">
+        <tr>
+            <td>Number Format</td>
+            <td>@ViewBag.NumberFormat</td>
+        </tr> 
+        <tr>
+            <td>Percent Format</td>
+            <td>@ViewBag.PercentFormat</td>
+        </tr>
+        <tr>
+            <td>Currency Format</td>
+            <td>@ViewBag.CurrencyFormat</td>
+        </tr>
+        <tr>
+            <td>Date Time Format</td>
+            <td>@ViewBag.DateTimeFormat</td>
+        </tr>
+        <tr>
+            <td>Content Format</td>
+            <td>@ViewBag.ContentFormat</td>
+        </tr>
+    </table>
+      
+    
 </body>
 </html>
