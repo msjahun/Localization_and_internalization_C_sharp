@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_and_internalization_C_sharp", "Localization_and_internalization_C_sharp\Localization_and_internalization_C_sharp.csproj", "{5D2DB990-40FB-4F56-8C8B-8DD2382127E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization_and_internalization_C_sharp.Tests", "Localization_and_internalization_C_sharp.Tests\Localization_and_internalization_C_sharp.Tests.csproj", "{06D12062-9609-43EB-B808-56574156395C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D2DB990-40FB-4F56-8C8B-8DD2382127E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2DB990-40FB-4F56-8C8B-8DD2382127E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2DB990-40FB-4F56-8C8B-8DD2382127E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2DB990-40FB-4F56-8C8B-8DD2382127E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D12062-9609-43EB-B808-56574156395C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D12062-9609-43EB-B808-56574156395C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D12062-9609-43EB-B808-56574156395C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D12062-9609-43EB-B808-56574156395C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD40D6B7-C55F-4D7F-AFE2-269E3EC88F98}
+	EndGlobalSection
+EndGlobal
