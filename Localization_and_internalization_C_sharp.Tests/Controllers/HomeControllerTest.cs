@@ -50,5 +50,19 @@ namespace Localization_and_internalization_C_sharp.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+
+        [TestMethod]
+        public void TestLocaleController()
+        {
+            // Arrange
+            LocaleController controller = new LocaleController();
+
+            // Act
+            ViewResult result = controller.Index() as ViewResult;
+
+            // Assert
+            Assert.IsNotNull(result);
+        }
     }
 }
