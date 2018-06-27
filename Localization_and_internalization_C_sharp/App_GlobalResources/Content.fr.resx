@@ -120,4 +120,7 @@
   <data name="Message" xml:space="preserve">
     <value>Bonjour le monde</value>
   </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Commettre ou ne pas commettre</value>
+  </data>
 </root>

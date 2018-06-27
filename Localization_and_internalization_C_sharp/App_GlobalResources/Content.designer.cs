@@ -68,5 +68,14 @@ namespace Resources {
                 return ResourceManager.GetString("Message", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quote.
+        /// </summary>
+        internal static string Quote {
+            get {
+                return ResourceManager.GetString("Quote", resourceCulture);
+            }
+        }
     }
 }

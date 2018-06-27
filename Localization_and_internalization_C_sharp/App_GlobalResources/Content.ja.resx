@@ -120,4 +120,7 @@
   <data name="Message" xml:space="preserve">
     <value>こんにちは世界</value>
   </data>
+  <data name="Quote" xml:space="preserve">
+    <value>コミットするかコミットしないか</value>
+  </data>
 </root>

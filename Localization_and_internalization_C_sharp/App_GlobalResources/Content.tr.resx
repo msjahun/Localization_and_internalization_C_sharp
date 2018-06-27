@@ -120,4 +120,7 @@
   <data name="Message" xml:space="preserve">
     <value>Selam Dünya</value>
   </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Taahhüt etmek veya taahhüt etmemek</value>
+  </data>
 </root>
